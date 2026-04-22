@@ -4,10 +4,7 @@
  */
 package com.mycompany.smartcampus.Exception;
 
-/**
- *
- * @author SHINO
- */
+
 public class SensorUnavailableException extends RuntimeException {
     public SensorUnavailableException(String message) {
         super(message);

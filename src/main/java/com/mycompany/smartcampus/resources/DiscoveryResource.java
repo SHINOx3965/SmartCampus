@@ -12,10 +12,7 @@ import jakarta.ws.rs.core.Response;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- *
- * @author SHINO
- */
+
 @Path("/")
 public class DiscoveryResource {
 

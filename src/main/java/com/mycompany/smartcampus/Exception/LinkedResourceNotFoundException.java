@@ -4,10 +4,7 @@
  */
 package com.mycompany.smartcampus.Exception;
 
-/**
- *
- * @author SHINO
- */
+
 public class LinkedResourceNotFoundException extends RuntimeException {
     public LinkedResourceNotFoundException(String message) {
         super(message);

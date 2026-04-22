@@ -11,10 +11,7 @@ import jakarta.ws.rs.ext.Provider;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author SHINO
- */
+
 @Provider
 public class GlobalExceptionMapper implements ExceptionMapper<Throwable> {
 

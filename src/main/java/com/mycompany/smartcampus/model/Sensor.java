@@ -4,10 +4,7 @@
  */
 package com.mycompany.smartcampus.model;
 
-/**
- *
- * @author SHINO
- */
+
 public class Sensor {
 
 private String id; // Unique identifier, e.g., "TEMP-001"
