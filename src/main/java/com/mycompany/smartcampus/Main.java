@@ -34,13 +34,12 @@ public class Main {
     public static void main(String[] args) throws IOException {
         final HttpServer server = startServer();
         
-        System.out.println("==============================================");
+        
         System.out.println("  Grizzly Server Started Successfully!");
         System.out.println("  Base URL : " + BASE_URI);
         System.out.println("  Discovery: GET " + BASE_URI);
         System.out.println("  Rooms    : GET " + BASE_URI + "rooms");
         System.out.println("  Sensors  : GET " + BASE_URI + "sensors");
-        System.out.println("==============================================");
         System.out.println("  Press ENTER to stop the server...");
 
         System.in.read();
